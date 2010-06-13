@@ -1,0 +1,3 @@
+rsync -r . m4nic@tagged.nl:/projects/haskell/bolt/mks --exclude 'app/' --exclude 'deploy' --exclude 'tags' --exclude 'src' --progress  --exclude '.svn' --exclude 'source' --exclude '*.psd'
+ssh m4nic@tagged.nl 'cd /projects/haskell/bolt/mks && nohup ./restart'
+

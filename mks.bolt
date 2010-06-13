@@ -1,0 +1,12 @@
+[DEFAULT]
+app-dir: app
+fastcgi-dir: app/fastcgi
+fcgi-out-dir: public
+ghc-options: -ignore-package transformers
+lighttpd-dir: app/lighttpd
+main-is: src/Main.hs
+manage-lighttpd: yes
+name: mks
+public-dir: public
+src-dir: src
+
